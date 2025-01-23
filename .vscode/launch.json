@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "ThreeSort",
+      "request": "launch",
+      "mainClass": "ThreeSort",
+      "projectName": "CourseraCS_a2344fb9"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/kaan/Documents/GitHub/CourseraCS/CS50x_2024",
+      "program": "/Users/kaan/Documents/GitHub/CourseraCS/CS50x_2024/build/Debug/outDebug"
+    }
+  ]
+}
