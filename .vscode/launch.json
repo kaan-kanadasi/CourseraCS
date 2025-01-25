@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "commandLine",
+      "request": "launch",
+      "mainClass": "commandLine",
+      "projectName": "CourseraCS_a2344fb9"
+    },
+    {
+      "type": "java",
       "name": "ThreeSort",
       "request": "launch",
       "mainClass": "ThreeSort",
