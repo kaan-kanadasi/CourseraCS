@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "binarySearch",
+      "request": "launch",
+      "mainClass": "binarySearch",
+      "projectName": "CourseraCS_a2344fb9"
+    },
+    {
+      "type": "java",
       "name": "commandLine",
       "request": "launch",
       "mainClass": "commandLine",
