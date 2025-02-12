@@ -2,6 +2,7 @@
  * Write a Interval1D client that takes an int value n as the command line argument, reads n intervals  
  * (each defined by a pair of double values) from standart input and prints all pairs that intersect
 */
+package Chapter1.Ch2;
 import java.util.Scanner;
 import java.util.ArrayList;
 

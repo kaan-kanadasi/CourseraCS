@@ -4,6 +4,7 @@
  * Write a program that checks weather two given strings s and t are circular shifts of one anouther 
  * Hint: the solution is one liner with indexOf(), length(), and string concatination.
 */
+package Chapter1.Ch2;
 import java.util.Scanner;
 
 public class CircularShift {

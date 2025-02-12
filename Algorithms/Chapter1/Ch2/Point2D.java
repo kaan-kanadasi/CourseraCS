@@ -2,6 +2,7 @@
  * Write a Point2D client that takes an integer value n from the command line, generates n random  
  * points in the unit square and computes the distance seperating the closest pair of points
 */
+package Chapter1.Ch2;
 import java.lang.Math;
 public class Point2D {
     public static void main(String[] args) {

@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "UnionFind",
+      "request": "launch",
+      "mainClass": "Chapter1.Ch5.UnionFind",
+      "projectName": "CourseraCS_a2344fb9"
+    },
+    {
+      "type": "java",
+      "name": "BandMatrix",
+      "request": "launch",
+      "mainClass": "BandMatrix",
+      "projectName": "CourseraCS_a2344fb9"
+    },
+    {
+      "type": "java",
       "name": "binarySearch",
       "request": "launch",
       "mainClass": "binarySearch",
