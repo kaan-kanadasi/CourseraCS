@@ -1,3 +1,4 @@
+package Chapter1.Ch1;
 import java.lang.Math;
 
 public class arrayExercise {

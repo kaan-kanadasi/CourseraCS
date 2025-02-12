@@ -1,3 +1,4 @@
+package Chapter1.Ch1;
 public class commandLine {
     public static void main(String[] args) {
         if (args.length == 3) {
