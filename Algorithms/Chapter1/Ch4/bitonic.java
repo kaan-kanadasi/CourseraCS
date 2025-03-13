@@ -1,3 +1,5 @@
+package Chapter1.Ch4;
+
 public class bitonic {
     public static int peak(int[] a) {
         int lo = 0, hi = a.length - 1;

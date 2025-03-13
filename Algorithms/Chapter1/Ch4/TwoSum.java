@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class TwoSum {
     public static int twoSum(int[] nums) {
-        Arrays.sort(nums);  // Sort the array in O(n log n)
+        Arrays.sort(nums);
         int n = nums.length;
         int count = 0;
 
@@ -15,7 +15,6 @@ public class TwoSum {
         return count;
     }
 
-    // Helper function to perform binary search and return the index
     private static int binarySearch(int[] nums, int target) {
         int low = 0, high = nums.length - 1;
         while (low <= high) {
