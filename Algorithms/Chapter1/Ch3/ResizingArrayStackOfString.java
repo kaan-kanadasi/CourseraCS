@@ -24,13 +24,13 @@ public class ResizingArrayStackOfString {
         // shrink the array to half when it is quarter size 
         if(N > 0 && N == s.length/4) resize(s.length/2);
         String item = s[--N]; 
-        s[N] = null;
+        s[N] = null; // avoids loitering
         return item;
     }
 
     private void resize(int capacity) {
         String[] copy = new String[capacity];
-        for(int i = 0; i < N; i++) 
+        for (int i = 0; i < N; i++) 
             copy[i] = s[i];
         s = copy;
     }
